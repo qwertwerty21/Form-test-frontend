@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as Constants from './../constants';
 
-let API_URL = 'http://strivequiz.herokuapp.com';
+let API_URL = 'http://form-test-backend.herokuapp.com';
 
 export function getAllQuestions() {
   return dispatch => {
