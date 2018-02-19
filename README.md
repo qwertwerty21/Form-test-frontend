@@ -1,4 +1,4 @@
-# Live Version: form-test-frontend.surge.sh
+# Live Version: http://form-test-frontend.surge.sh
 # Form-test-frontend
 
 A React/Redux based app which provides a GUI for users to get quiz questions, and submit quiz answers
