@@ -49,7 +49,7 @@ class Timer extends Component {
     newState['remainingTime'] = updatedCountdownTime;
     this.setState(newState);
     console.log('cdtime', updatedCountdownTime);
-    if (this.state.remainingTime < 175) {
+    if (this.state.remainingTime < 1) {
       console.log('TIME UP ');
 
       clearInterval(this.countdown);
