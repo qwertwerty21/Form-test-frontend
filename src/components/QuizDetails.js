@@ -1,13 +1,6 @@
-import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import { Link } from 'react-router';
-import LinearProgress from 'material-ui/LinearProgress';
-import Dialog from 'material-ui/Dialog';
+import React from 'react';
 
-import { Card, CardHeader, CardMedia, CardText } from 'material-ui/Card';
-import TextField from 'material-ui/TextField';
-import RaisedButton from 'material-ui/RaisedButton';
+import { Card, CardHeader, CardText } from 'material-ui/Card';
 
 import Timer from './Timer';
 
